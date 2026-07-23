@@ -54,7 +54,7 @@ const MovieModal = ({ onClose, movie }: MovieModalProps) => {
           &times;
         </button>
         <img
-          src={`https://image.tmdb.org/t/p/original/${backdrop_path}`}
+          src={`https://image.tmdb.org/t/p/original${backdrop_path}`}
           alt={title}
           className={css.image}
         />
@@ -65,7 +65,7 @@ const MovieModal = ({ onClose, movie }: MovieModalProps) => {
             <strong>Release Date:</strong> {release_date}
           </p>
           <p>
-            <strong>Rating:</strong> {vote_average / 10}
+            <strong>Rating:</strong> {vote_average}/10
           </p>
         </div>
       </div>

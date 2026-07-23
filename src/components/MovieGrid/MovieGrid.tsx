@@ -14,7 +14,7 @@ const MovieGrid = ({ movies, onSelect }: MovieGridProps) => {
           <div className={css.card}>
             <img
               className={css.image}
-              src={`https://image.tmdb.org/t/p/w500/${poster_path}`}
+              src={`https://image.tmdb.org/t/p/w500${poster_path}`}
               alt={title}
               loading="lazy"
             />
