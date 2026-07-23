@@ -22,7 +22,6 @@ function App() {
       const data = await fetchMovies(query);
       if (data.length === 0) {
         toast.error("No movies found for your request.");
-        return;
       }
       setMovies(data);
     } catch {
